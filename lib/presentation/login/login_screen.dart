@@ -40,7 +40,7 @@ class LoginSection extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
       decoration: BoxDecoration(
         color: Colors.white, // fondo blanco
-        borderRadius: BorderRadius.circular(40), // bordes redondeados
+        borderRadius: BorderRadius.circular(10), // bordes redondeados
       ),
       child: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -72,7 +72,7 @@ class ImageSection extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
       decoration: BoxDecoration(
         color: Colors.white, // fondo blanco
-        borderRadius: BorderRadius.circular(40), // bordes redondeados
+        borderRadius: BorderRadius.circular(10), // bordes redondeados
       ),
       child: Image.asset(
         "assets/img/almacen.png",
@@ -124,7 +124,7 @@ class ButtonLogin extends StatelessWidget {
           backgroundColor: colors.primary,
           padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 14),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(10),
           ),
         ),
         child: const Text(
@@ -148,7 +148,7 @@ class TextTitle extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
       decoration: BoxDecoration(
-          color: colors.primary, borderRadius: BorderRadius.circular(20)),
+          color: colors.primary, borderRadius: BorderRadius.circular(10)),
       child: Text(
         text,
         style: const TextStyle(
@@ -180,7 +180,7 @@ class TextFieldLogin extends StatelessWidget {
           labelStyle: TextStyle(color: colors.primary),
           prefixIcon: Icon(icon, color: colors.primary),
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(10),
             borderSide: BorderSide(color: colors.primary),
           ),
         ),
